@@ -26,14 +26,80 @@ switch (_TypNumber) do
   // Independent (A3) FIA
  case 1:
   {
-    _Unit_Pool_S = [["O_G_officer_F",1],["O_G_Soldier_LAT_F",4],["O_G_Soldier_GL_F",2],["O_G_Soldier_TL_F",1],["O_G_Soldier_AR_F",3],["O_G_Soldier_F",2]];
+    _Unit_Pool_S = ["O_G_officer_F","O_G_Soldier_LAT_F","O_G_Soldier_GL_F","O_G_Soldier_TL_F","O_G_Soldier_AR_F","O_G_Soldier_F"];
     _Unit_Pool_V = ["O_G_Offroad_01_armed_F"];
     _Unit_Pool_T = ["O_G_Offroad_01_armed_F"];
     _Unit_Pool_A = [];
   };  
+  
+//-------------------------------------------------------------------------------------------------
+// OPFOR		CAF Aggressors Africans			caf_ag_afr_p
+  case 2:
+  {
+    _Unit_Pool_S = [
+		"CAF_AG_AFR_P_AK47","CAF_AG_AFR_P_AK47",
+		"CAF_AG_AFR_P_AK47",
+		"CAF_AG_AFR_P_AK74",
+		"CAF_AG_AFR_P_GL",
+		"CAF_AG_AFR_P_PK",
+		"CAF_AG_AFR_P_RPK",
+		"CAF_AG_AFR_P_RPG"
+	];
+    _Unit_Pool_V = [
+		"CAF_AG_afr_p_Offroad",
+		"CAF_AG_afr_p_Offroad_armed_01",
+		"CAF_AG_afr_p_van_01"
+	];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
+  };
+//-------------------------------------------------------------------------------------------------
+// OPFOR		CAF Aggressors Middle Eastern	caf_ag_me_t
+  case 3:
+  {
+    _Unit_Pool_S = [
+		"CAF_AG_ME_T_AK47","CAF_AG_ME_T_AK47",
+		"CAF_AG_ME_T_AK47",
+		"CAF_AG_ME_T_AK74",
+		"CAF_AG_ME_T_GL",
+		"CAF_AG_ME_T_PK",
+		"CAF_AG_ME_T_RPK",
+		"CAF_AG_ME_T_RPG"
+	];
+    _Unit_Pool_V = [
+		"CAF_AG_ME_T_Offroad",
+		"CAF_AG_ME_T_Offroad_armed_01",
+		"CAF_AG_ME_T_van_01"
+	];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
+  };
+//-------------------------------------------------------------------------------------------------
+// OPFOR		CAF Aggressors Europeans		caf_ag_eeur_r
+  case 4:
+  {
+    _Unit_Pool_S = [
+		"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK47",
+		"CAF_AG_EEUR_R_AK47",
+		"CAF_AG_EEUR_R_AK74",
+		"CAF_AG_EEUR_R_GL",
+		"CAF_AG_EEUR_R_PK",
+		"CAF_AG_EEUR_R_RPK",
+		"CAF_AG_EEUR_R_RPG"
+	];
+    _Unit_Pool_V = [
+		"CAF_AG_eeur_r_Offroad",
+		// "CAF_AG_eeur_r_Offroad_armed_01",
+		"O_G_Offroad_01_armed_F",
+		"CAF_AG_eeur_r_van_01"
+	];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
+  };
+//-------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------
 // BLUFOR (A3)
-  case 2:
+  case 5:
   {
     _Unit_Pool_S = ["B_crew_F","B_Helipilot_F","B_Soldier_SL_F","B_soldier_AR_F","B_soldier_AR_F","B_soldier_exp_F","B_soldier_GL_F","B_soldier_GL_F","B_soldier_AA_F","B_soldier_M_F","B_medic_F","B_soldier_repair_F","B_Soldier_F","B_Soldier_F","B_soldier_LAT_F","B_soldier_LAT_F","B_soldier_lite_F","B_soldier_TL_F","B_soldier_TL_F"];
     _Unit_Pool_V = ["B_MRAP_01_F","B_MRAP_01_gmg_F","B_MRAP_01_hmg_F"];
@@ -42,7 +108,7 @@ switch (_TypNumber) do
   };  
 //-------------------------------------------------------------------------------------------------
 // Independent (A3)
-  case 3:
+  case 6:
   {
     _Unit_Pool_S = ["I_crew_F","I_helipilot_F","I_officer_F","I_Soldier_AT_F","I_Soldier_AA_F","I_Soldier_M_F","I_Soldier_GL_F","I_Soldier_exp_F","I_engineer_F","I_medic_F","I_Soldier_AR_F","I_Soldier_A_F"];
     _Unit_Pool_V = ["I_Truck_02_covered_F","I_Truck_02_transport_F","I_MRAP_03_hmg_F","I_MRAP_03_gmg_F","I_MRAP_03_F"];
@@ -51,7 +117,7 @@ switch (_TypNumber) do
   };
   
 // Independent (A3) FIA
- case 4:
+ case 7:
   {
     _Unit_Pool_S = ["I_G_officer_F","I_G_Soldier_LAT_F","I_G_Soldier_LAT_F","I_G_Soldier_GL_F","I_G_Soldier_TL_F","I_G_Soldier_AR_F","I_G_Soldier_F"];
     _Unit_Pool_V = ["I_G_Offroad_01_armed_F"];
@@ -60,7 +126,7 @@ switch (_TypNumber) do
   };  
 //-------------------------------------------------------------------------------------------------
 // Civilians (A3)
-  case 5:
+  case 8:
   {
     _Unit_Pool_S = ["C_man_1","C_man_1","C_man_1","C_man_polo_1_F","C_man_polo_2_F","C_man_polo_3_F","C_man_polo_4_F","C_man_polo_5_F","C_man_polo_6_F","C_man_1_1_F","C_man_1_2_F","C_man_1_3_F"];
     _Unit_Pool_V = ["C_Van_01_box_F","C_Van_01_transport_F","C_Offroad_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F"];

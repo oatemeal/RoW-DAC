@@ -19,7 +19,7 @@ switch (_this select 0) do
 	case 0:
 	{
 		//_setSkill = ["aimingAccuracy","aimingShake","aimingSpeed","Endurance","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
-		_setSkill   = [[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8],[0.2,0.8]];
+		_setSkill   = [[0.2,0.4],[0.2,0.4],[0.2,0.4],[0.2,0.4],[0.5,0.8],[0.2,0.4],[0.2,0.4],[0.2,0.4],[0.2,0.4],[0.2,0.4]];
 		_setCombat  = ["green","white","yellow"];
 		_setBehav   = ["careless","safe","aware"];
 		_setSpeed   = ["limited","normal","full"];
@@ -36,6 +36,7 @@ switch (_this select 0) do
 		_setSupTime = ["5 + ((skill _unit) * (5 * DAC_AI_Level))",2,5];
 		_setHidTime = ["(((10 * DAC_AI_Level) + ((skill _leader) * 50)) / ((count units _group) + 1))"];
 	};
+
 //-------------------------------------------------------------------------------------------------------------------------
 	case 1:
 	{
