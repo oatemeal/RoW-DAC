@@ -17,7 +17,7 @@ switch (_TypNumber) do
 // CSAT Arid
   case 0:
   {
-    _Unit_Pool_S = [["TEC_O_Soldier_SL_F","TEC_O_soldier_AR_F","TEC_O_soldier_F","TEC_O_soldier_GL_F","TEC_O_medic_F","TEC_O_soldier_LAT_F","TEC_O_soldier_TL_F"];
+    _Unit_Pool_S = ["TEC_O_Soldier_SL_F","TEC_O_soldier_AR_F","TEC_O_soldier_F","TEC_O_soldier_GL_F","TEC_O_medic_F","TEC_O_soldier_LAT_F","TEC_O_soldier_TL_F"];
     _Unit_Pool_V = ["TEC_O_MRAP_02_F","TEC_O_MRAP_02_gmg_F","TEC_O_MRAP_02_hmg_F"];
     _Unit_Pool_T = ["TEC_O_MBT_02_arty_F","TEC_O_APC_Tracked_02_cannon_F","TEC_O_APC_Wheeled_02_rcws_F","TEC_O_MBT_02_cannon_F","TEC_O_APC_Tracked_02_AA_F"];
 	_Unit_Pool_A = ["TEC_O_Heli_Attack_02_F","TEC_O_Heli_Light_02_F","TEC_O_Heli_Light_02_armed_F"];
@@ -26,7 +26,7 @@ switch (_TypNumber) do
 // CSAT Urban
  case 1:
   {
-   _Unit_Pool_S = [["TEC_O_Soldier_SL_Urban_F","TEC_O_soldier_AR_Urban_F","TEC_O_soldier_Urban_F","TEC_O_soldier_GL_Urban_F","TEC_O_medic_Urban_F","TEC_O_soldier_LAT_Urban_F","TEC_O_soldier_TL_Urban_F"];
+   _Unit_Pool_S = ["TEC_O_Soldier_SL_Urban_F","TEC_O_soldier_AR_Urban_F","TEC_O_soldier_Urban_F","TEC_O_soldier_GL_Urban_F","TEC_O_medic_Urban_F","TEC_O_soldier_LAT_Urban_F","TEC_O_soldier_TL_Urban_F"];
    _Unit_Pool_V = ["TEC_O_MRAP_02_Urban_F","TEC_O_MRAP_02_gmg_Urban_F","TEC_O_MRAP_02_hmg_Urban_F"];
    _Unit_Pool_T = ["TEC_O_MBT_02_arty_Urban_F","TEC_O_APC_Tracked_02_cannon_Urban_F","TEC_O_APC_Wheeled_02_rcws_Urban_F","TEC_O_MBT_02_cannon_Urban_F","TEC_O_APC_Tracked_02_AA_Urban_F"];
    _Unit_Pool_A = ["TEC_O_Heli_Attack_02_Urban_F","TEC_O_Heli_Light_02_Urban_F","TEC_O_Heli_Light_02_armed_Urban_F"];
@@ -35,7 +35,7 @@ switch (_TypNumber) do
 // Terrorists
  case 2:
   {
-   _Unit_Pool_S = [["O_SD_Soldier_SL","O_SD_Soldier","O_SD_Soldier_AT","O_SD_Soldier_Marksman","O_SD_Soldier"];
+   _Unit_Pool_S = ["O_SD_Soldier_SL","O_SD_Soldier","O_SD_Soldier_AT","O_SD_Soldier_Marksman","O_SD_Soldier"];
    _Unit_Pool_V = ["O_SD_Offroad_01","O_SD_Offroad_01_armed","O_SD_Offroad_01_armed"];
    _Unit_Pool_T = [];
    _Unit_Pool_A = [];
